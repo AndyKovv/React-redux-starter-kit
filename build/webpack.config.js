@@ -95,8 +95,8 @@ if (!__TEST__) {
 // Pre-Loaders
 // ------------------------------------
 
-[ NOTE ]
 /*
+[ NOTE ]
 We no longer use eslint-loader due to it severely impacting build
 times for larger projects. `npm run lint` still exists to aid in
 deploy processes (such as with CI), and it's recommended that youuse a linting plugin for your IDE in place of this loader.
